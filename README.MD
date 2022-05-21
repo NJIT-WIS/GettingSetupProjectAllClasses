@@ -31,6 +31,7 @@ installed. Please go here to download and install Python before continuing. **[D
 3. Signup for a students license for Pycharm Pro and Install it **[Signup Here](https://www.jetbrains.com/community/education/#students)**, once you have signed up you will need to download and install Pycharm Pro **[from here](https://www.jetbrains.com/pycharm/)**.  **DO NOT INSTALL THE COMMUNITY EDITION YOU NEED PYCHARM PRO!**
 
 4. Open Pycharm Pro and clone the assignment repository.  Open up a terminal in Pycharm, run "pip install -r requirements.txt" and then run "pytest".  **If pycharm shows you an error about pip / requirements when you clone the repo just skip/cancel/dismiss the error and run the command in the terminal like i said above**   
-5. You will see that the test fails because the code does not output the expected output.   You need to change the output of the program to pass the test and then submit the assignment for grading by pushing up to GitHub. To do this, you need to change the value in the test_with_pytest.py file
+5. You will see that the test fails because the code does not output the expected output.   You need to change the output of the program to pass the test and then submit the assignment for grading by pushing up to GitHub. To do this, you need to change the value in the test_with_pytest.py file.
+6. When you your pytest passes just commit and push it back to the origin and the assignment will be automaticly graded by running the test that you run locally.
 
 
